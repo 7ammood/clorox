@@ -17,4 +17,6 @@ add_executable(clorox
     src/vm.c
     src/scanner.c
     src/compiler.c
+    src/object.c
+    src/table.c
 )
