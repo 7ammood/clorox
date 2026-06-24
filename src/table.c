@@ -123,7 +123,7 @@ ObjString* tableFindString(Table* table, const char* chars,int length, uint32_t 
         Entry* entry = &table->entries[index];
         if (entry->key == NULL) {
         // Stop if we find an empty non-tombstone entry.
-        if (IS_NIL(entry->value)) return NULL;
+        if (IS_NULL(entry->value)) return NULL;
         } else if (entry->key->length == length &&
             entry->key->hash == hash &&
             memcmp(entry->key->chars, chars, length) == 0) {

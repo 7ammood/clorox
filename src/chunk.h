@@ -18,8 +18,13 @@ typedef enum {
   OP_MULTIPLY,
   OP_DIVIDE,
   OP_NOT,
+  OP_PRINT,
+  OP_POP,
+  OP_GET_GLOBAL,
+  OP_SET_GLOBAL,
   OP_NEGATE,
   OP_RETURN,
+  OP_DEFINE_GLOBAL,
 } OpCode;
 
 typedef struct {
