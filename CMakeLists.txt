@@ -4,10 +4,10 @@ project(clorox)
 
 set(CMAKE_C_STANDARD 99)
 
-# Tell CMake where to find your header files
+# header files directory
 include_directories(src)
 
-# Only list the source (.c) files here
+
 add_executable(clorox 
     src/main.c 
     src/chunk.c
