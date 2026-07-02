@@ -27,6 +27,8 @@ typedef enum {
   OP_NEGATE,
   OP_RETURN,
   OP_DEFINE_GLOBAL,
+  OP_JUMP_IF_FALSE,
+  OP_JUMP,
 } OpCode;
 
 typedef struct {
