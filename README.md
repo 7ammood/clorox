@@ -1,6 +1,6 @@
 # Clorox
 
-A lightweight bytecode virtual machine and interpreter written in pure C, inspired by the *Crafting Interpreters* architecture.
+A lightweight bytecode virtual machine and interpreter written in pure C, following the *Crafting Interpreters* book.
 
 
 ## Project Structure
