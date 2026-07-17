@@ -53,3 +53,7 @@ dkms.conf
 
 #build forlder
 build/
+
+#other files
+clorox.Executables
+test.clorox
