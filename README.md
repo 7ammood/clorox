@@ -42,3 +42,51 @@ Once the compilation finishes, you can feed a source file straight into the inte
 ```bash
 ./clorox test.clorox
 ```
+
+## Basic Usage & Syntax
+
+Clorox supports standard arithmetic, variable declarations, and control flow. Below is the syntax guide for working with scripts:
+
+### Variable Declaration
+```clorox
+var x = 10;
+x = 9;
+```
+
+### Print Statement
+```clorox
+print x;
+```
+
+### If else Statement
+```clorox
+if(condition){
+  code;
+} else {
+  code;
+}
+```
+
+### While loop
+```clorox
+while(condition){
+  code;
+}
+```
+
+### For loop
+```clorox
+for(initializer;condition;increment){
+  code;
+}
+
+for (var i = 0; i < 5; i = i + 1) {
+  print i;
+}
+
+var j = 0;
+for (; j < 3;) {
+  print j;
+  j = j + 1;
+}
+```
